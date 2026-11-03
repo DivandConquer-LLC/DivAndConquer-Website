@@ -10,12 +10,15 @@ Static homepage for Div & Conquer Collective, deployed with GitHub Pages.
 
 Clare Lahey prototype: [https://divandconquer.io/clare/](https://divandconquer.io/clare/)
 
+Julie Vos mobile navigation prototype: [https://divandconquer.io/julievos-mobile-nav/](https://divandconquer.io/julievos-mobile-nav/)
+
 ## Project structure
 
 - `index.html` - homepage markup and styles, based on the supplied standalone design.
 - `assets/homepage/` - local fonts, portfolio imagery, animation scripts, and showreel.
 - `assets/homepage-screenshot.png` - current homepage screenshot used in this README.
 - `clare/` - standalone Clare Lahey prototype and its local assets.
+- `julievos-mobile-nav/` - standalone Julie Vos mobile navigation prototype with embedded assets.
 - `.nojekyll` - keeps GitHub Pages from running the site through Jekyll.
 
 ## Local preview
