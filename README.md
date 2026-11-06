@@ -15,7 +15,7 @@ Julie Vos mobile navigation prototype: [https://divandconquer.io/julievos-mobile
 ## Project structure
 
 - `index.html` - homepage markup and styles, based on the supplied standalone design.
-- `assets/homepage/` - local fonts, portfolio imagery, animation scripts, and showreel.
+- `assets/homepage/` - local fonts, portfolio imagery, and animation scripts.
 - `assets/homepage-screenshot.png` - current homepage screenshot used in this README.
 - `clare/` - standalone Clare Lahey prototype and its local assets.
 - `julievos-mobile-nav/` - standalone Julie Vos mobile navigation prototype with embedded assets.
@@ -35,7 +35,7 @@ GitHub Pages is configured to publish from the root of the `main` branch. Any co
 
 ## Homepage media
 
-The October 2026 homepage uses the supplied `Untitled design (15).mp4` reel, encoded as a muted 1080p H.264 MP4 with fast-start metadata for web playback. The previous reel's timestamp skip does not apply to this edit. All design assets are served as local files so browsers can cache them independently.
+The homepage uses local fonts and portfolio imagery. It does not embed a showreel.
 
 ## Updating the screenshot
 
@@ -44,3 +44,4 @@ After changing the homepage, refresh the screenshot from the repository root:
 ```powershell
 & 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe' --headless --disable-gpu --hide-scrollbars --window-size=1440,1100 --screenshot='assets\homepage-screenshot.png' 'https://divandconquer-llc.github.io/DivAndConquer-Website/'
 ```
+
